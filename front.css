@@ -1,0 +1,374 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#top{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../zomato/images/heroSectionBackground.png);
+    background-position-x: -60px ;
+    background-position-y: -145px;
+    height: 420px;
+}
+p{
+    padding-top: 30px;
+}
+.locationsearch{
+    height: 50px;
+    width: 740px;
+    background-color: white;
+    margin-left: 285px;
+    margin-top: 35px;
+    border-radius: 8px;
+}
+.location{
+    font-size: 20px;
+    width: 215px;
+    padding-top: 13px;
+    margin-left: 13px;
+}
+.search{
+    margin-left: 255px;
+    
+}
+#pic1{
+    height: 260px;
+    width: 360px;
+    margin-left: 120px;
+    margin-top: 40px;
+    position: absolute;
+    border: 2px  solid;
+    border-color: beige;
+    border-radius: 15px 15px 15px 15px;
+    transition: 0.5s;
+}
+#pic1:hover{
+    transform: scale(1.1);
+
+}
+.pic1I{
+    height: 170px;
+    width: 360px;
+    background-image: url(../zomato/images/pic1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.pic1II{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4f4f4f;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 20px;
+}
+#pic2{
+    height: 260px;
+    width: 360px;
+    margin-left: 500px;
+    margin-top: 40px;
+    position: absolute;
+    border: 2px  solid;
+    border-color: beige;
+    border-radius: 15px 15px 15px 15px;
+    transition: 0.5s;
+}
+#pic2:hover{
+    transform: scale(1.1);
+}
+.pic2I{
+    height: 170px;
+    width: 360px;
+    background-image: url(../zomato/images/pic2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.pic2II{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4f4f4f;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 20px;
+
+}
+#pic3{
+    height: 260px;
+    width: 360px;
+    margin-left: 880px;
+    margin-top: 40px;
+    border: 2px solid;
+    border-color: beige;
+    border-radius: 15px 15px 15px 15px;
+    transition: 0.5s;
+}
+#pic3:hover{
+    transform: scale(1.1);
+}
+.pic3I{
+    height: 170px;
+    width: 360px;
+    background-image: url(../zomato/images/pic3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.pic3II{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4f4f4f;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 20px;
+}
+.pics1{
+    height: 310px;
+    width: 270px;
+    background-image: url(../zomato/images/newly.jpg);
+    background-size: cover;
+    background-position-y: -40px;
+    border-radius: 6px 6px 6px 6px;
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.pics2{
+    height: 310px;
+    width: 270px;
+    background-image: url(../zomato/images/top\ trending.jpg);
+    background-size: cover;
+    border-radius: 6px 6px 6px 6px;
+    display: inline-block;
+    padding-left: 10px;
+    margin-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.pics3{
+    height: 310px;
+    width: 270px;
+    background-image: url(../zomato/images/south\ indian.jpg);
+    background-size: cover;
+    border-radius: 6px 6px 6px 6px;
+    display: inline-block;
+    margin-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.pics4{
+    height: 310px;
+    width: 270px;
+    background-image: url(../zomato/images/sea\ view.jpg);
+    background-size: cover;
+    border-radius: 6px 6px 6px 6px;
+    display: inline-block;
+    margin-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#box{
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: 'ONE TWO THREE''FOUR FIVE SIX''SEVEN EIGHT NINE';
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300px;
+    width: 800px;
+    margin-left: 100px;
+    margin-top: 18px;
+}
+.box{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    height: 58px;
+    width: 335px;
+    border-color: beige;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 1px;
+    text-align: left; 
+}
+.box:hover{
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 4px 8px;
+}
+.name{
+    font-size: 20px;
+    color: #1c1c1c;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.places{
+    font-size: 16px;
+    color: #1c1c1c;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 9px;
+    
+}
+.right{
+    font-size: 11px;
+    color: #1c1c1c;
+    position: absolute;
+    padding-left: 320px;
+}
+#pink{
+    background-color: #fffbf7;
+    height: 520px;
+    width: 1348px;
+    margin-top: 95px;
+}
+.ad{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 430px;
+    margin-left: 650px;
+    margin-top: -420px;
+}
+#radio{
+    accent-color: #ef4f5f;
+    height: 20px;
+    width: 20px;
+}
+.radio{
+    color: #1c1c1c;
+    font-size: 16px;
+    display: inline-block;
+    position: absolute;
+}
+#email{
+    height: 43px;
+    width: 270px;
+    font-size: 17px;
+    padding-left: 13px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: rgb(207, 207, 207);
+}
+#app{
+    height: 44px;
+    width: 135px;
+    background-color: #ef4f5f;
+    font-size: 16px;
+    border-radius: 6px;
+    margin-left: 5px;
+    border-width: 1pt;
+}
+#box1{
+    height: 400px;
+    width: 1340px;
+}
+.box1{
+    height: 67px;
+    width: 1100px;
+    margin-left: 100px;
+    margin-top: 25px;
+    border-width: 1px;
+    border-color: rgb(207, 207, 207);
+    border-style: solid;
+    border-radius: 8px;
+    color: #1c1c1c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gridp{
+    padding-top: 22px;
+    margin-left: 25px;
+    font-size: 20px;
+    position: absolute;
+}
+.fa-chevron-down{
+    font-size: 14px;
+    margin-left: 1060px;
+    position: absolute;
+    margin-top: 28px;
+}
+#last{
+    height: 480px;
+    width: 1349px;
+    background-color: #f4f4f2;
+    margin-top: 10px;
+}
+.India{
+    height: 35px;
+    width: 105px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-color: rgb(207, 207, 207);
+    border-radius: 7px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 700px;
+}
+.english{
+    height: 35px;
+    width: 120px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 7px;
+    border-color: rgb(207, 207, 207);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.about{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    height: 250px;
+    width: 160px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.about1{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 250px;
+    width: 150px;
+    display: inline-block;
+    margin-left: 60px;
+}
+.about2{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 80px;
+}
+.about3{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    height: 200px;
+    width: 140px;
+    margin-left:340px ;
+    position: absolute;
+}
+.about4{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    position: absolute;
+    margin-left: 520px;
+}
+.fa-linkedin,.fa-instagram,.fa-x-twitter,.fa-youtube,.fa-facebook{
+    color: #000000;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-left: 5px;
+}
+hr{
+    width: 1100px;
+    height: 1px;
+    border: none;
+    background-color: rgb(207, 207, 207);
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
