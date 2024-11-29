@@ -6,7 +6,7 @@
 #top{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../zomato/images/heroSectionBackground.png);
+    background-image: url(./images/heroSectionBackground.png);
     background-position-x: -60px ;
     background-position-y: -145px;
     height: 420px;
@@ -50,7 +50,7 @@ p{
 .pic1I{
     height: 170px;
     width: 360px;
-    background-image: url(../zomato/images/pic1.png);
+    background-image: url(./images/pic1.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-top-left-radius: 15px;
@@ -80,7 +80,7 @@ p{
 .pic2I{
     height: 170px;
     width: 360px;
-    background-image: url(../zomato/images/pic2.png);
+    background-image: url(./images/pic2.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-top-left-radius: 15px;
@@ -110,7 +110,7 @@ p{
 .pic3I{
     height: 170px;
     width: 360px;
-    background-image: url(../zomato/images/pic3.png);
+    background-image: url(./images/pic3.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-top-left-radius: 15px;
@@ -126,7 +126,7 @@ p{
 .pics1{
     height: 310px;
     width: 270px;
-    background-image: url(../zomato/images/newly.jpg);
+    background-image: url(./images/newly.jpg);
     background-size: cover;
     background-position-y: -40px;
     border-radius: 6px 6px 6px 6px;
@@ -139,7 +139,7 @@ p{
 .pics2{
     height: 310px;
     width: 270px;
-    background-image: url(../zomato/images/top\ trending.jpg);
+    background-image: url(./images/top\ trending.jpg);
     background-size: cover;
     border-radius: 6px 6px 6px 6px;
     display: inline-block;
@@ -151,7 +151,7 @@ p{
 .pics3{
     height: 310px;
     width: 270px;
-    background-image: url(../zomato/images/south\ indian.jpg);
+    background-image: url(./images/south\ indian.jpg);
     background-size: cover;
     border-radius: 6px 6px 6px 6px;
     display: inline-block;
@@ -162,7 +162,7 @@ p{
 .pics4{
     height: 310px;
     width: 270px;
-    background-image: url(../zomato/images/sea\ view.jpg);
+    background-image: url(./images/sea\ view.jpg);
     background-size: cover;
     border-radius: 6px 6px 6px 6px;
     display: inline-block;
